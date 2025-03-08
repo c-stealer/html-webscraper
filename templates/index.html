@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Scraper</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Web Scraper</h1>
+        <div class="input-section">
+            <input type="url" id="urlInput" placeholder="Enter URL to scrape" required>
+            <button id="scrapeButton">Scrape</button>
+        </div>
+        <div id="loadingSpinner" class="spinner hidden"></div>
+        <div id="resultSection" class="result-section">
+            <div id="titleSection" class="result-item"></div>
+            <div id="paragraphsSection" class="result-item"></div>
+            <div id="linksSection" class="result-item"></div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
