@@ -15,7 +15,7 @@ This is a web scraping application with a modern UI built using:
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/web-scraper.git
+git clone https://github.com/c-stealer/web-scraper.git
 cd web-scraper
 ```
 
